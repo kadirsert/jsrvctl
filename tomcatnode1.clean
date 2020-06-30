@@ -1,1 +1,2 @@
+### This is an example for a Tomcat App Node Cleanup:
 rm -rf /opt/tomcatnode1/work/*
