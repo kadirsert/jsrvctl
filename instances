@@ -1,3 +1,4 @@
 ### Example instances file. Put each instance name into a line.
-#tomcatnode1
-#wildflynode1
+tomcatnode1
+wildflynode0
+wildflynode1
