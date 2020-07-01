@@ -1,3 +1,5 @@
+### This is an example for a Jboss Wildfly Standalone App Node Profile:
+
 JAVA_HOME=/opt/java/jdk1.8.0_121; export JAVA_HOME
 JBOSS_HOME=/opt/wildfly-10.1.0.Final; export JBOSS_HOME
 PATH=$JAVA_HOME/bin:$JBOSS_HOME/bin:$PATH; export PATH
