@@ -10,3 +10,7 @@ There are examples (**tomcatnode1**) for managing tomcat nodes and (**wildflynod
 * Create `/etc/jsrvctl` directory.
 * Put `instances`, `jsrvctl.profile` and `<instance_name>.profile` into the `/etc/jsrvctl` directory.
 * Give execution permissions to the `jsrvctl` and `<instance_name>.clean` files.
+
+# jsrvctl.profile:
+* **ADMINGROUPS:** Specify space separated groups list whose members are allowed to run jsrvctl.
+* **KILL_TIMEOUT:** Specify amount of time in seconds to wait before sending SIGKILL to the java process. `jsrvctl` tries to stop the running java instance using `SHUTDOWN_CMD` firstly.
