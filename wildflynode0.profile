@@ -3,7 +3,7 @@
 JAVA_HOME=/opt/java/jdk1.8.0_251; export JAVA_HOME
 JBOSS_HOME=/opt/wildfly-10.1.0.Final; export JBOSS_HOME
 PATH=$JAVA_HOME/bin:$JBOSS_HOME/bin:$PATH; export PATH
-export IPORT=9990
+IPORT=9990; export IPORT
 
 export APPUSER=jboss
 export PS_REGEX='Djboss.node.name=node0'
