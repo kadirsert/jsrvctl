@@ -18,7 +18,6 @@ There are examples (**tomcatnode1**) for managing tomcat nodes and (**wildflynod
 ### <instance_name>.profile:
 * **APPUSER:** Specify username to be owner of the java process to run.
 * **PS_REGEX:** Specify regular expression to identify the right java process.
-* **JAVA_OPTS:** Specify additional options to be passed to the Java virtual machine.
 * **SHUTDOWN_CMD:** Specify platform specific shutdown command.
 * **STARTUP_CMD:** Specify platform specific startup command.
 
