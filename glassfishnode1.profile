@@ -1,3 +1,4 @@
+### This is an example for a GlassFish App Node Profile:
 
 AS_JAVA=/opt/java/jre1.8.0_211; export AS_JAVA
 PATH=$AS_JAVA/bin:$PATH; export PATH
