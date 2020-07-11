@@ -3,7 +3,7 @@ Linux Service Wrapper (Controller) for Java Based Application Servers
 
 The `jsrvctl` is designed to manage the lifetime of java applications as per configuration basis. Global configurations are `jsrvctl.profile`and `instances` files. The `instances` file is used to contain list of java app node names line by line. There should be `<instance_name>.profile` file to configure each java instance. `<instance_name>.clean` is cleanup file which is executed after java node goes down and is optional.
 
-There are examples (**tomcatnode1**) for managing tomcat nodes, (**wildflynode0, wildflynode1**) for wildfly standalone nodes and (**glassfishnode1**) for glassfish domain nodes.
+There are examples in the `example_configs/` directory. (**tomcatnode1**) for managing tomcat nodes, (**wildflynode0, wildflynode1**) for wildfly standalone nodes and (**glassfishnode1**) for glassfish domain nodes.
 
 # Installing and Configuring:
 * Put `jsrvctl` and `<instance_name>.clean` into the `/usr/local/bin` directory.
